@@ -1,5 +1,8 @@
 # AccuGPTsheet
 using app script to create a simple tool to run google sheet, most plug-ins have limitation on response time, so it cannot generate long texts, if we use App Script, we can generate long text in Google Sheet.
+
+
+
 AccuGPTsheet 使用指南
 1. 簡介
 
@@ -11,7 +14,7 @@ AccuGPTsheet 是一款能夠在 Google Sheets 中直接調用 GPT-3.5 Turbo API 
     首先，打開您的 Google Sheets，然後點擊上方的 附加元件 > Apps Script 以開啟 Google Apps Script 編輯器。
     
     b. 貼上 script
-    在 script 編輯器中，刪除所有預設的程式碼，然後將提供的 "AccuGPTsheet" script 完整複製並貼上。
+    在 script 編輯器中，刪除所有預設的程式碼，然後將提供的 "AccuGPTsheet" script 完整複製並貼上。(main.js)
     
     c. 設定 API 金鑰
     在 script 中找到 'YOUR_OPENAI_API_KEY'，並將其替換為您的實際 OpenAI API 金鑰。
@@ -47,7 +50,7 @@ AccuGPTsheet is a tool designed to directly invoke the GPT-3.5 Turbo API within 
     First, open your Google Sheets and then click on Extensions > Apps Script to launch the Google Apps Script editor.
     
     b. Pasting the Script
-    Within the script editor, erase any default code present. Then, copy and paste the entirety of the provided "AccuGPTsheet" script.
+    Within the script editor, erase any default code present. Then, copy and paste the entirety of the provided "AccuGPTsheet" script.(main.js)
     
     c. Setting up the API Key
     In the script, locate 'YOUR_OPENAI_API_KEY' and replace it with your actual OpenAI API key.
